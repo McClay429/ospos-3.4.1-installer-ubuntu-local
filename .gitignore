@@ -1,0 +1,14 @@
+# Archivos de configuración con credenciales reales (por si alguien los genera al probar localmente)
+.env
+*.env.local
+
+# Descargas temporales si se prueba el script localmente
+*.zip
+*.tar.gz
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
