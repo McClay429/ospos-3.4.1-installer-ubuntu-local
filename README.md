@@ -82,6 +82,13 @@ FLUSH PRIVILEGES;
 "
 ```
 
+> ⚠️ **No olvides reemplazar `TU_CONTRASEÑA_AQUI` por una contraseña real**
+> antes de copiar y pegar el comando de arriba. Es un error fácil de
+> cometer — si lo dejas tal cual, el
+> usuario `ospos` de MariaDB queda literalmente con la contraseña
+> `TU_CONTRASEÑA_AQUI`, y el script fallará más adelante al no coincidir
+> con lo que le indiques en `DB_PASSWORD`.
+
 ## Uso
 
 ```bash
